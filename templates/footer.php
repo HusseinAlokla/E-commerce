@@ -1,52 +1,4 @@
-<?php 
-include( 'templates/header.php' );
-include( 'templates/banner.php' );
-?>
-		<!-- content-section-starts -->
-	<div class="content">
-	<div class="container">
-		<div class="login-page">
-			    <div class="dreamcrub">
-			   	 <ul class="breadcrumbs">
-                    <li class="home">
-                       <a href="index.html" title="Go to Home Page">Home</a>&nbsp;
-                       <span>&gt;</span>
-                    </li>
-                    <li class="women">
-                       Login
-                    </li>
-                </ul>
-                <ul class="previous">
-                	<li><a href="index.html">Back to Previous Page</a></li>
-                </ul>
-                <div class="clearfix"></div>
-			   </div>
-			   <div class="account_grid">
-			   <div class="col-md-6 login-left wow fadeInLeft" data-wow-delay="0.4s">
-			  	 <h2>NEW CUSTOMERS</h2>
-				 <p>By creating an account with our store, you will be able to move through the checkout process faster, store multiple shipping addresses, view and track your orders in your account and more.</p>
-				 <a class="acount-btn" href="register.html">Create an Account</a>
-			   </div>
-			   <div class="col-md-6 login-right wow fadeInRight" data-wow-delay="0.4s">
-			  	<h3>REGISTERED CUSTOMERS</h3>
-				<p>If you have an account with us, please log in.</p>
-				<form>
-				  <div>
-					<span>Email Address<label>*</label></span>
-					<input type="text"> 
-				  </div>
-				  <div>
-					<span>Password<label>*</label></span>
-					<input type="password"> 
-				  </div>
-				  <a class="forgot" href="#">Forgot Your Password?</a>
-				  <input type="submit" value="Login">
-			    </form>
-			   </div>	
-			   <div class="clearfix"> </div>
-			 </div>
-		   </div>
-</div>
+		<!-- content-section-ends-here -->
 		<div class="news-letter">
 			<div class="container">
 				<div class="join">
@@ -60,7 +12,6 @@ include( 'templates/banner.php' );
 					<div class="clearfix"> </div>
 				</div>
 			</div>
-		</div>
 		</div>
 		<div class="footer">
 		<div class="container">
@@ -94,13 +45,13 @@ include( 'templates/banner.php' );
 				<div class="col-md-3 span1_of_4">
 					<h4>account</h4>
 					<ul class="f_nav">
-						<li><a href="account.html">login</a></li>
-						<li><a href="register.html">create an account</a></li>
+						<li><a href="account.php">login</a></li>
+						<li><a href="register.php">create an account</a></li>
 						<li><a href="#">create wishlist</a></li>
-						<li><a href="checkout.html">my shopping bag</a></li>
+						<li><a href="checkout.php">my shopping bag</a></li>
 						<li><a href="#">brands</a></li>
 						<li><a href="#">create wishlist</a></li>
-					</ul>	
+					</ul>				
 				</div>
 				<div class="col-md-3 span1_of_4">
 					<h4>popular</h4>
@@ -125,7 +76,7 @@ include( 'templates/banner.php' );
 				<img src="images/cards.jpg" alt="" />
 		  </div>
 		  <div class="copyright text-center">
-				<p>© 2015 Eshop. All Rights Reserved | Design by   <a href="http://w3layouts.com">  W3layouts</a></p>
+				<p>© 2016 Eshop. All Rights Reserved | Design by   <a href="http://w3zones.com">  w3zones</a></p>
 		  </div>
 		</div>
 		</div>
