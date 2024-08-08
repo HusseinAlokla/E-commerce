@@ -30,18 +30,18 @@ include( 'templates/banner.php' );
 			   <div class="col-md-6 login-right wow fadeInRight" data-wow-delay="0.4s">
 			  	<h3>REGISTERED CUSTOMERS</h3>
 				<p>If you have an account with us, please log in.</p>
-				<form>
-				  <div>
-					<span>Email Address<label>*</label></span>
-					<input type="text"> 
-				  </div>
-				  <div>
-					<span>Password<label>*</label></span>
-					<input type="password"> 
-				  </div>
-				  <a class="forgot" href="#">Forgot Your Password?</a>
-				  <input type="submit" value="Login">
-			    </form>
+				<form action="login.php" method="post">
+					<div>
+						<span>Email Address<label>*</label></span>
+						<input type="email" name="email" required> 
+					</div>
+					<div>
+						<span>Password<label>*</label></span>
+						<input type="password" name="password" required> 
+					</div>
+					<input type="submit" value="Login">
+				</form>
+
 			   </div>	
 			   <div class="clearfix"> </div>
 			 </div>

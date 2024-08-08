@@ -217,34 +217,34 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="reg">
 					 <p>Welcome, please enter the following details to continue.</p>
 					 <p>If you have previously registered with us, <a href="#">click here</a></p>
-					 <form>
-						 <ul>
-							 <li class="text-info">First Name: </li>
-							 <li><input type="text" value=""></li>
-						 </ul>
-						 <ul>
-							 <li class="text-info">Last Name: </li>
-							 <li><input type="text" value=""></li>
-						 </ul>				 
-						<ul>
-							 <li class="text-info">Email: </li>
-							 <li><input type="text" value=""></li>
-						 </ul>
-						 <ul>
-							 <li class="text-info">Password: </li>
-							 <li><input type="password" value=""></li>
-						 </ul>
-						 <ul>
-							 <li class="text-info">Re-enter Password:</li>
-							 <li><input type="password" value=""></li>
-						 </ul>
-						 <ul>
-							 <li class="text-info">Mobile Number:</li>
-							 <li><input type="text" value=""></li>
-						 </ul>						
-						 <input type="submit" value="REGISTER NOW">
-						 <p class="click">By clicking this button, you are agree to my  <a href="#">Policy Terms and Conditions.</a></p> 
-					 </form>
+					 <form action="register_user.php" method="POST">
+    <ul>
+        <li class="text-info">First Name: </li>
+        <li><input type="text" name="first_name" required></li>
+    </ul>
+    <ul>
+        <li class="text-info">Last Name: </li>
+        <li><input type="text" name="last_name" required></li>
+    </ul>
+    <ul>
+        <li class="text-info">Email: </li>
+        <li><input type="email" name="email" required></li>
+    </ul>
+    <ul>
+        <li class="text-info">Password: </li>
+        <li><input type="password" name="password" required></li>
+    </ul>
+    <ul>
+        <li class="text-info">Re-enter Password:</li>
+        <li><input type="password" name="confirm_password" required></li>
+    </ul>
+    <ul>
+        <li class="text-info">Mobile Number:</li>
+        <li><input type="text" name="mobile_number" required></li>
+    </ul>
+    <input type="submit" value="REGISTER NOW">
+</form>
+
 				 </div>
 			</div>
 			<div class="reg-right">
