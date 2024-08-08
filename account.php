@@ -9,7 +9,7 @@ include( 'templates/banner.php' );
 			    <div class="dreamcrub">
 			   	 <ul class="breadcrumbs">
                     <li class="home">
-                       <a href="index.html" title="Go to Home Page">Home</a>&nbsp;
+                       <a href="index.php" title="Go to Home Page">Home</a>&nbsp;
                        <span>&gt;</span>
                     </li>
                     <li class="women">
@@ -17,7 +17,7 @@ include( 'templates/banner.php' );
                     </li>
                 </ul>
                 <ul class="previous">
-                	<li><a href="index.html">Back to Previous Page</a></li>
+                	<li><a href="index.php">Back to Previous Page</a></li>
                 </ul>
                 <div class="clearfix"></div>
 			   </div>
@@ -25,7 +25,7 @@ include( 'templates/banner.php' );
 			   <div class="col-md-6 login-left wow fadeInLeft" data-wow-delay="0.4s">
 			  	 <h2>NEW CUSTOMERS</h2>
 				 <p>By creating an account with our store, you will be able to move through the checkout process faster, store multiple shipping addresses, view and track your orders in your account and more.</p>
-				 <a class="acount-btn" href="register.html">Create an Account</a>
+				 <a class="acount-btn" href="register.php">Create an Account</a>
 			   </div>
 			   <div class="col-md-6 login-right wow fadeInRight" data-wow-delay="0.4s">
 			  	<h3>REGISTERED CUSTOMERS</h3>
@@ -94,10 +94,10 @@ include( 'templates/banner.php' );
 				<div class="col-md-3 span1_of_4">
 					<h4>account</h4>
 					<ul class="f_nav">
-						<li><a href="account.html">login</a></li>
-						<li><a href="register.html">create an account</a></li>
+						<li><a href="account.php">login</a></li>
+						<li><a href="register.php">create an account</a></li>
 						<li><a href="#">create wishlist</a></li>
-						<li><a href="checkout.html">my shopping bag</a></li>
+						<li><a href="checkout.php">my shopping bag</a></li>
 						<li><a href="#">brands</a></li>
 						<li><a href="#">create wishlist</a></li>
 					</ul>	
@@ -124,9 +124,7 @@ include( 'templates/banner.php' );
 		  <div class="cards text-center">
 				<img src="images/cards.jpg" alt="" />
 		  </div>
-		  <div class="copyright text-center">
-				<p>© 2015 Eshop. All Rights Reserved | Design by   <a href="http://w3layouts.com">  W3layouts</a></p>
-		  </div>
+		  
 		</div>
 		</div>
 </body>

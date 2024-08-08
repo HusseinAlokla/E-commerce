@@ -5,7 +5,7 @@ License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 -->
 <!DOCTYPE html>
-<html>
+<>
 <head>
 <title>Eshop a Flat E-Commerce Bootstrap Responsive Website Template | Chectout :: w3layouts</title>
 <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
@@ -35,13 +35,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="container">
 				<div class="header-top-left">
 					<ul>
-						<li><a href="account.html"><span class="glyphicon glyphicon-user"> </span>Login</a></li>
-						<li><a href="register.html"><span class="glyphicon glyphicon-lock"> </span>Create an Account</a></li>			
+						<li><a href="account.php"><span class="glyphicon glyphicon-user"> </span>Login</a></li>
+						<li><a href="register.php"><span class="glyphicon glyphicon-lock"> </span>Create an Account</a></li>			
 					</ul>
 				</div>
 				<div class="header-right">
 						<div class="cart box_1">
-							<a href="checkout.html">
+							<a href="checkout.php">
 								<h3> <span class="simpleCart_total"> $0.00 </span> (<span id="simpleCart_quantity" class="simpleCart_quantity"> 0 </span>)<img src="images/bag.png" alt=""></h3>
 							</a>	
 							<p><a href="javascript:;" class="simpleCart_empty">Empty cart</a></p>
@@ -65,14 +65,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		        <span class="icon-bar"></span>
 	        </button>
 				<div class="logo">
-					<h1><a href="index.html"><span>E</span> -Shop</a></h1>
+					<h1><a href="index.php"><span>E</span> -Shop</a></h1>
 				</div>
 	    </div>
 	    <!--/.navbar-header-->
 	
 	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 	        <ul class="nav navbar-nav">
-			<li><a href="index.html">Home</a></li>
+			<li><a href="index.php">Home</a></li>
 		        <li class="dropdown">
 		            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Men <b class="caret"></b></a>
 		            <ul class="dropdown-menu multi-column columns-3">
@@ -80,35 +80,35 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				            <div class="col-sm-4">
 					            <ul class="multi-column-dropdown">
 									<h6>NEW IN</h6>
-						            <li><a href="products.html">New In Clothing</a></li>
-						            <li><a href="products.html">New In Bags</a></li>
-						            <li><a href="products.html">New In Shoes</a></li>
-						            <li><a href="products.html">New In Watches</a></li>
-						            <li><a href="products.html">New In Grooming</a></li>
+						            <li><a href="products.php">New In Clothing</a></li>
+						            <li><a href="products.php">New In Bags</a></li>
+						            <li><a href="products.php">New In Shoes</a></li>
+						            <li><a href="products.php">New In Watches</a></li>
+						            <li><a href="products.php">New In Grooming</a></li>
 					            </ul>
 				            </div>
 				            <div class="col-sm-4">
 					            <ul class="multi-column-dropdown">
 									<h6>CLOTHING</h6>
-						            <li><a href="products.html">Polos & Tees</a></li>
-						            <li><a href="products.html">Casual Shirts</a></li>
-						            <li><a href="products.html">Casual Trousers</a></li>
-						            <li><a href="products.html">Jeans</a></li>
-						            <li><a href="products.html">Shorts & 3/4th</a></li>
-						            <li><a href="products.html">Formal Shirts</a></li>
-						            <li><a href="products.html">Formal Trousers</a></li>
-						            <li><a href="products.html">Suits & Blazers</a></li>
-						            <li><a href="products.html">Track Wear</a></li>
-						            <li><a href="products.html">Inner Wear</a></li>
+						            <li><a href="products.php">Polos & Tees</a></li>
+						            <li><a href="products.php">Casual Shirts</a></li>
+						            <li><a href="products.php">Casual Trousers</a></li>
+						            <li><a href="products.php">Jeans</a></li>
+						            <li><a href="products.php">Shorts & 3/4th</a></li>
+						            <li><a href="products.php">Formal Shirts</a></li>
+						            <li><a href="products.php">Formal Trousers</a></li>
+						            <li><a href="products.php">Suits & Blazers</a></li>
+						            <li><a href="products.php">Track Wear</a></li>
+						            <li><a href="products.php">Inner Wear</a></li>
 					            </ul>
 				            </div>
 				            <div class="col-sm-4">
 					            <ul class="multi-column-dropdown">
 									<h6>WATCHES</h6>
-						            <li><a href="products.html">Analog</a></li>
-						            <li><a href="products.html">Chronograph</a></li>
-						            <li><a href="products.html">Digital</a></li>
-						            <li><a href="products.html">Watch Cases</a></li>
+						            <li><a href="products.php">Analog</a></li>
+						            <li><a href="products.php">Chronograph</a></li>
+						            <li><a href="products.php">Digital</a></li>
+						            <li><a href="products.php">Watch Cases</a></li>
 					            </ul>
 				            </div>
 							<div class="clearfix"></div>
@@ -122,35 +122,35 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				            <div class="col-sm-4">
 					            <ul class="multi-column-dropdown">
 									<h6>NEW IN</h6>
-						            <li><a href="products.html">New In Clothing</a></li>
-						            <li><a href="products.html">New In Bags</a></li>
-						            <li><a href="products.html">New In Shoes</a></li>
-						            <li><a href="products.html">New In Watches</a></li>
-						            <li><a href="products.html">New In Beauty</a></li>
+						            <li><a href="products.php">New In Clothing</a></li>
+						            <li><a href="products.php">New In Bags</a></li>
+						            <li><a href="products.php">New In Shoes</a></li>
+						            <li><a href="products.php">New In Watches</a></li>
+						            <li><a href="products.php">New In Beauty</a></li>
 					            </ul>
 				            </div>
 				            <div class="col-sm-4">
 					            <ul class="multi-column-dropdown">
 									<h6>CLOTHING</h6>
-						            <li><a href="products.html">Polos & Tees</a></li>
-						            <li><a href="products.html">Casual Shirts</a></li>
-						            <li><a href="products.html">Casual Trousers</a></li>
-						            <li><a href="products.html">Jeans</a></li>
-						            <li><a href="products.html">Shorts & 3/4th</a></li>
-						            <li><a href="products.html">Formal Shirts</a></li>
-						            <li><a href="products.html">Formal Trousers</a></li>
-						            <li><a href="products.html">Suits & Blazers</a></li>
-						            <li><a href="products.html">Track Wear</a></li>
-						            <li><a href="products.html">Inner Wear</a></li>
+						            <li><a href="products.php">Polos & Tees</a></li>
+						            <li><a href="products.php">Casual Shirts</a></li>
+						            <li><a href="products.php">Casual Trousers</a></li>
+						            <li><a href="products.php">Jeans</a></li>
+						            <li><a href="products.php">Shorts & 3/4th</a></li>
+						            <li><a href="products.php">Formal Shirts</a></li>
+						            <li><a href="products.php">Formal Trousers</a></li>
+						            <li><a href="products.php">Suits & Blazers</a></li>
+						            <li><a href="products.php">Track Wear</a></li>
+						            <li><a href="products.php">Inner Wear</a></li>
 					            </ul>
 				            </div>
 				            <div class="col-sm-4">
 					            <ul class="multi-column-dropdown">
 									<h6>WATCHES</h6>
-						            <li><a href="products.html">Analog</a></li>
-						            <li><a href="products.html">Chronograph</a></li>
-						            <li><a href="products.html">Digital</a></li>
-						            <li><a href="products.html">Watch Cases</a></li>
+						            <li><a href="products.php">Analog</a></li>
+						            <li><a href="products.php">Chronograph</a></li>
+						            <li><a href="products.php">Digital</a></li>
+						            <li><a href="products.php">Watch Cases</a></li>
 					            </ul>
 				            </div>
 							<div class="clearfix"></div>
@@ -164,27 +164,27 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				            <div class="col-sm-6">
 					            <ul class="multi-column-dropdown">
 									<h6>NEW IN</h6>
-						            <li><a href="products.html">New In Boys Clothing</a></li>
-						            <li><a href="products.html">New In Girls Clothing</a></li>
-						            <li><a href="products.html">New In Boys Shoes</a></li>
-						            <li><a href="products.html">New In Girls Shoes</a></li>
+						            <li><a href="products.php">New In Boys Clothing</a></li>
+						            <li><a href="products.php">New In Girls Clothing</a></li>
+						            <li><a href="products.php">New In Boys Shoes</a></li>
+						            <li><a href="products.php">New In Girls Shoes</a></li>
 					            </ul>
 				            </div>
 				            <div class="col-sm-6">
 					             <ul class="multi-column-dropdown">
 									<h6>ACCESSORIES</h6>
-						            <li><a href="products.html">Bags</a></li>
-						            <li><a href="products.html">Watches</a></li>
-						            <li><a href="products.html">Sun Glasses</a></li>
-						            <li><a href="products.html">Jewellery</a></li>
+						            <li><a href="products.php">Bags</a></li>
+						            <li><a href="products.php">Watches</a></li>
+						            <li><a href="products.php">Sun Glasses</a></li>
+						            <li><a href="products.php">Jewellery</a></li>
 					            </ul>
 				            </div>
 							<div class="clearfix"></div>
 			            </div>
 		            </ul>
 		        </li>
-					<li><a href="typography.html">TYPO</a></li>
-					<li><a href="contact.html">CONTACT</a></li>
+					<li><a href="typography.php">TYPO</a></li>
+					<li><a href="contact.php">CONTACT</a></li>
 	        </ul>
 	    </div>
 	    <!--/.navbar-collapse-->
@@ -199,7 +199,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div class="dreamcrub">
 			   	 <ul class="breadcrumbs">
                     <li class="home">
-                       <a href="index.html" title="Go to Home Page">Home</a>&nbsp;
+                       <a href="index.php" title="Go to Home Page">Home</a>&nbsp;
                        <span>&gt;</span>
                     </li>
                     <li class="women">
@@ -207,7 +207,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     </li>
                 </ul>
                 <ul class="previous">
-                	<li><a href="index.html">Back to Previous Page</a></li>
+                	<li><a href="index.php">Back to Previous Page</a></li>
                 </ul>
                 <div class="clearfix"></div>
 			   </div>
@@ -354,10 +354,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="col-md-3 span1_of_4">
 					<h4>account</h4>
 					<ul class="f_nav">
-						<li><a href="account.html">login</a></li>
-						<li><a href="register.html">create an account</a></li>
+						<li><a href="account.php">login</a></li>
+						<li><a href="register.php">create an account</a></li>
 						<li><a href="#">create wishlist</a></li>
-						<li><a href="checkout.html">my shopping bag</a></li>
+						<li><a href="checkout.php">my shopping bag</a></li>
 						<li><a href="#">brands</a></li>
 						<li><a href="#">create wishlist</a></li>
 					</ul>					
@@ -384,9 +384,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		  <div class="cards text-center">
 				<img src="images/cards.jpg" alt="" />
 		  </div>
-		  <div class="copyright text-center">
-				<p>© 2015 Eshop. All Rights Reserved | Design by   <a href="http://w3layouts.com">  W3layouts</a></p>
-		  </div>
+		  
 		</div>
 		</div>
 </body>

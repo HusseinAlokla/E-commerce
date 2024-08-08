@@ -75,9 +75,7 @@
 		  <div class="cards text-center">
 				<img src="images/cards.jpg" alt="" />
 		  </div>
-		  <div class="copyright text-center">
-				<p>© 2016 Eshop. All Rights Reserved | Design by   <a href="http://w3zones.com">  w3zones</a></p>
-		  </div>
+		  
 		</div>
 		</div>
 </body>
