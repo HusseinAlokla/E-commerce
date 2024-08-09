@@ -3,7 +3,7 @@ services:
     image: e-commerce-web
     environment:
       DB_HOST: ecommerce-db.cz6imuacs3tj.us-east-1.rds.amazonaws.com
-      DB_NAME: ecommerce-db
+      DB_NAME: ecommerce_db
       DB_USER: root
       DB_PASS: Hma81200400$$
     build: .
@@ -11,10 +11,3 @@ services:
       - "8080:80"
     volumes:
       - .:/var/www/html
-  db:
-    image: mysql:5.7
-    environment:
-      MYSQL_ROOT_PASSWORD: ""
-      MYSQL_DATABASE: ecommerce_db
-    ports:
-      - "3306:3306"
