@@ -1,5 +1,5 @@
 <?php
-$conn = new mysqli('ecommerce-db.cz6imuacs3tj.us-east-1.rds.amazonaws.com', 'root', 'Hma81200400$$', 'ecommercedb');
+$conn = new mysqli('ecommerce-db.cz6imuacs3tj.us-east-1.rds.amazonaws.com', 'root', 'Hma81200400$$', 'ecommercedb',3306);
 
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);

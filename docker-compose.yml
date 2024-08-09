@@ -6,6 +6,7 @@ services:
       DB_NAME: ecommercedb
       DB_USER: root
       DB_PASS: Hma81200400$$
+      DB_PORT: 3306
     build: .
     ports:
       - "8080:80"
