@@ -1,14 +1,13 @@
 services:
   web:
-    image: e-commerce-web
+    build: .
+    ports:
+      - "8080:80"
+    volumes:
+      - .:/var/www/html
     environment:
       DB_HOST: ecommerce-db.cz6imuacs3tj.us-east-1.rds.amazonaws.com
       DB_NAME: ecommercedb
       DB_USER: root
       DB_PASS: Hma81200400$$
       DB_PORT: 3306
-    build: .
-    ports:
-      - "8080:80"
-    volumes:
-      - .:/var/www/html
