@@ -1,5 +1,11 @@
 services:
   web:
+    image: e-commerce-web
+    environment:
+      DB_HOST: ecommerce-db.cz6imuacs3tj.us-east-1.rds.amazonaws.com
+      DB_NAME: ecommerce-db
+      DB_USER: root
+      DB_PASS: Hma81200400$$
     build: .
     ports:
       - "8080:80"
